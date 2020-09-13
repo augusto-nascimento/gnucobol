@@ -17,6 +17,7 @@ version: '3'
 services:
   cobol:
     build: .
+    entrypoint:  tail -f /dev/null
     container_name: cobol
     volumes:
       - ./src/:/oscobol/src/
