@@ -29,7 +29,7 @@ mkdir src
 
 Importar o arquivo de exemplo HELLO.COB
 ```
-wget -O src/HELLO.COB 
+wget -O src/HELLO.COB https://raw.githubusercontent.com/augusto-nascimento/gnucobol/master/HELLO.COB
 ```
 
 executar o docker-compose e acessar o container
